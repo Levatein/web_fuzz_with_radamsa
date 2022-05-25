@@ -136,7 +136,7 @@ def get_mutate_count(corpus_path, mutates):
 
 
 def parse_params():
-    parser = argparse.ArgumentParser(description='Black-box fuzzing via radamsa')
+    parser = argparse.ArgumentParser(description='Black-box fuzzing with radamsa')
     parser.add_argument('-u', dest="url", help='destination ip fuzzing for', required=True)
     parser.add_argument('-c', dest="corpus", help='path to directory to corpus, which include folders POST and GET', required=True)
     parser.add_argument('--proxy', dest="proxy", default=None, help='proxy like http://127.0.0.1:8080 if necessary')
