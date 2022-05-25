@@ -1,4 +1,4 @@
-# fuzz_web_with_radamsa
+# web_fuzz_with_radamsa
 
 Создать корпус из xml бурпа:
 ```
